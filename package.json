@@ -4,7 +4,8 @@
     "description": "a pokemon api",
     "main": "fetchPokemons.js",
     "scripts": {
-        "start": "nodemon server.js",
+        "start": "node server.js",
+        "dev": "nodemon server.js",
         "debug": "ndb server.js"
     },
     "author": "PreetamSingh",
